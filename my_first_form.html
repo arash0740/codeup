@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>my_first_form.html</title>
+	</head>
+	<body>
+			<h2>"User Login"</h2>
+			<form method="post" action="http://requestbin.fullcontact.com/1m8etz21">
+				<p>
+					<label for="username">username</label>
+					<input type="text" name="username" id="username" placeholder="username here">
+				</p>
+				<p>
+					<label for="password">password</label>
+					<input type="password" name="password" id="password" placeholder="password here">
+				</p>
+				<p>
+					<button type="submit">send</button>
+				</p>
+			</form>
+			<h2>"Compose an Email"</h2>
+			<form method="post" action="http://requestbin.fullcontact.com/1m8etz21">
+				<p>
+					<label for="receive">To</label>
+					<input type="text" name="receive" id="receive" placeholder="receiver adress">
+				</p>
+				<p>
+					<label for="sender">From</label>
+					<input type="text" name="sender" id="sender" placeholder="sender adress">
+				</p>
+				<p>
+					<label for="subject">Subject</label>
+					<input type="text" name="subject" id="subject" placeholder="can't be blank">
+				</p>
+				<p>
+					<textarea rows="5" cols="27" placeholder="comment"></textarea>
+				</p>
+				<p>
+					<button type="submit">Send</button>
+					<input type="checkbox" name="save copy" id="save copy" value="yes" checked>
+					<label for="save copy">save a copy to the sent folder?</label>
+				</p>
+			</form>
+			<h2>"Multiple Choice Test"</h2>
+			<form method="post" action="http://requestbin.fullcontact.com/1m8etz21">
+				<ol>
+					<li><p>What is the capital of Texas?</p></li>
+					<label><input type="radio" name="q1" value="Houston">Houston</label>
+					<label><input type="radio" name="q1" value="Dallas">Dallas</label>
+					<label><input type="radio" name="q1" value="Austin">Austin</label>
+					<li><p>Where do you live?</p></li>
+					<label><input type="radio" name="q2" value="Texass">Texas</label>
+					<label><input type="radio" name="q2" value="Nevada">Nevada</label>
+					<label><input type="radio" name="q2" value="Arizona">Arizona</label>
+				</ol>
+	
+			<h2>Multiple answers</h2>
+				<ol>
+					<li><p>What is the capital of Texas?</p></li>
+					<label><input type="checkbox" name="q1[]]" value="Houston">Houston</label>
+					<label><input type="checkbox" name="q1[]]" value="Dallas">Dallas</label>
+					<label><input type="checkbox" name="q1[]]" value="Austin">Austin</label>
+					<li><p>Where do you live?</p></li>
+					<label><input type="checkbox" name="q2[]" value="Texas">Texas</label>
+					<label><input type="checkbox" name="q2[]" value="Nevada">Nevada</label>
+					<label><input type="checkbox" name="q2[]" value="Arizona">Arizona</label>
+			
+					<li><p><label for="states">which states have you been?</label></p></li>
+					<select id="states" name="states[]" multiple>
+						<option>Texas</option>
+						<option>Nevada</option>
+						<option>Arizona</option>
+					</select>
+				</ol>
+					<h2>"Select Testing"</h2>
+					<label for="texas capital">Austin is the capital of Texas?</label>
+					<select id="texas capital" name="texas capital">
+							<option value="1">yes</option>
+							<option selected value="0">no</option>
+					</select>
+
+					<div><button type="submit">send</button></div>
+			</form>
+
+	</body>
+</html>
+
+
