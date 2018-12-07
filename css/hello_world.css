@@ -1,0 +1,34 @@
+h2 {
+	color: blue ;text-decoration: underline;
+}
+body {
+	background:gray; background-image: url(https://cdn.pixabay.com/photo/2018/10/17/07/57/leaves-3753344_960_720.jpg); 
+	height: 900px; background-position: center; background-repeat: repeat;  
+}
+ul{
+	list-style: square; 
+}
+body {
+	font-style: bold;
+}
+tr,td {
+	font-style: italic; border: 2px solid black;
+}
+table {
+	border: 4px solid black;
+}
+a:visited {
+	color: red;
+}
+a:hover {
+	color: green;
+}
+a:link {
+	color: yellow;
+}
+a:active {
+	color: orange;
+}
+ol {
+	color: red;
+}

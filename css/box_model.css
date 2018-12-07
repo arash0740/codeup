@@ -1,0 +1,35 @@
+a {
+	color: red; text-decoration: underline;
+}
+a:hover {
+	color: green;
+}
+a:active {
+	color: yellow;
+}
+.box {
+	color:#fff; width: 150px; height: 50px;
+	border: 2px solid black; padding: 10px; margin-top: 10px; 
+	font-weight: bold;
+}
+.red {
+	background-color: red; border: 
+}
+.orange {
+	background-color: orange; margin-left: 30px;
+}
+.yellow {
+	background-color: yellow; margin-left: 60px;
+}
+.green {
+	background-color: green; margin-left: 90px;
+}
+.blue {
+	background-color: blue; margin-left: 120px;
+}
+.violet {
+	background-color: violet; margin-left: 150px;
+}
+body {
+	background-color: gray;
+}
